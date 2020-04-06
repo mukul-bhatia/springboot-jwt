@@ -1,4 +1,4 @@
-                         SpringBoot-JWT Generation and Authentication
+                                          SpringBoot-JWT Generation and Authentication
 Note:
 This procedure assumes that you have already installed JDK1.8.
 
