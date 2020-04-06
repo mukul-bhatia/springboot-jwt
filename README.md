@@ -23,9 +23,12 @@ Here, edit the username and password (in Line no. 16).
 Step 3: Here, the configured port is 8080. To change the port number follow path : src -> main -> resources -> application.properties. 
 Here, edit the port number (in Line no. 1).
 
-Step 4: Now to run the project, select the project name. Right Click on it and select Run As -> Spring Boot App. Once it starts running by showing "Completed initialization", open "Postman" to test the API's.
+Step 4: Here, the API returns an exception message (Incorrect username or password) on unsuccessful authentication. To change the exception message follow path: src -> main -> java -> Controller.java. 
+Here, edit the message (in Line no. 40).
 
-Step 5: This jar contains 2 API's. One is to generate the JWT token and the other is to verify secured access through token. a) To generate the token :
+Step 5: Now to run the project, select the project name. Right Click on it and select Run As -> Spring Boot App. Once it starts running by showing "Completed initialization", open "Postman" to test the API's.
+
+Step 6: This jar contains 2 API's. One is to generate the JWT token and the other is to verify secured access through token. a) To generate the token :
 
 URL : http://localhost:8080/authenticate
 
