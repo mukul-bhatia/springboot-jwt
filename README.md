@@ -17,10 +17,10 @@ Step 2: In the project, the credentials used is:
 "password":"bar"
 }
 
-To change the credentials, follow path : src -> main -> java -> MyUserDetailsService.java
+To change the credentials, follow path : src -> main -> java -> MyUserDetailsService.java.
 Here, edit the username and password (in Line no. 16).
 
-Step 3: Here, the configured port is 8080. To change the port number follow path : src -> main -> resources -> application.properties 
+Step 3: Here, the configured port is 8080. To change the port number follow path : src -> main -> resources -> application.properties. 
 Here, edit the port number (in Line no. 1).
 
 Step 4: Now to run the project, select the project name. Right Click on it and select Run As -> Spring Boot App. Once it starts running by showing "Completed initialization", open "Postman" to test the API's.
